@@ -3,7 +3,7 @@ layout: page
 title: 只用几行CSS代码就改变内容的显示方式！  
 excerpt_separator: "<!--more-->"
 categories:
-    - 网站设计
+    - 平面设计
 ---   
 
 神奇的媒体查询，unbelieveable! 仅仅需要几行代码就可以改变内容的显示方式！  
