@@ -1,105 +1,35 @@
 ---
-
- 
 title: "2018年新年快乐：文学与传媒学院标识H5交互动画版"
-
- 
 excerpt_separator: "<!--more-->"
-
- 
 categories:
-
- 
   - SVG笔记
-
- 
 tags:
-
- 
   - H5动画
-
- 
   - SVG
-
- 
   - 标识
-
- 
 ---
-
- 
-
-
- 
 由廖汉腾老师结合H5(HTML5+CSS3)课堂实践及学生作品而成，参考学生作品包括[林树斌](https://treeice.github.io)丶[林立](http://www.elpsycongroo.cc/)丶[胡靖茵](https://hujingyin.github.io)的作品。
-
- 
-
-
- 
 试着鼠标移到标识的不同位置。
 
- 
-
-
- 
 <!--more-->
-
- 
-
-
- 
 ### 文学与传媒学院：2018年新年快乐，献上动画标识
-
- 
-
-
- 
 ---
-
- 
-
-
- 
 <style>
 
- 
 #bg_wheel{
-
- 
     animation-play-state: paused;
-
- 
 }
-
- 
 #bg_wheel:hover{
-
- 
     animation-play-state: running;
-
- 
 }
-
- 
 #bg_wheel:hover {
-
- 
   -webkit-animation: wheeling 12s linear alternate infinite;
-
- 
    -moz-animation: wheeling 12s linear alternate infinite;
-
- 
    animation: wheeling 12s linear alternate infinite;
-
- 
 }
 
- 
 @keyframes wheeling {
 
- 
    0% {
 
  
