@@ -22,7 +22,9 @@ t:
   page: "页面 Page"
   of: "of"
   min_read: "1min read"
-  present: "当下 Present"
+  present: "当下 Present"  
+  breadcrumb_home_label: "Home"  
+  breadcrumb_separator: "/"
 
 # Google Fonts
 google_fonts:
@@ -39,4 +41,12 @@ navigation_pages:
   - 平面设计.md  
   - 网站设计.md  
   - 学习笔记.md  
-  - SVG笔记.md
+  - SVG笔记.md  
+    
+  design_archive:
+    type: liquid
+    path: /design/
+ tag_archive:
+    type: liquid
+    path: /tags/
+ permalink: /design/:title/ 

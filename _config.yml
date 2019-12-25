@@ -25,7 +25,8 @@ author:
   picture:
 twitter_username:
 github_username:
-logo: "/assets/images/logo_head portrait.png" # path of site logo, e.g. "/assets/images/logo.png"
+logo: "/assets/images/logo_head portrait.png" # path of site logo, e.g. "/assets/images/logo.png"  
+breadcrumbs: true # true, false (default)
 search: true # true, false (default)
 search_full_content: true # true, false (default)
 search_provider: # lunr (default), algolia
