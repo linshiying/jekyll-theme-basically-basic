@@ -18,7 +18,8 @@ div
 	background:red;
 	animation:myfirst 5s;
 	-webkit-animation:myfirst 5s; /* Safari and Chrome */  
-	animation-direction:normal;
+	animation-direction:normal;  
+	position:absolute;
 }
 
 @keyframes myfirst
@@ -62,7 +63,8 @@ div
 	-webkit-animation-delay:2s;
 	-webkit-animation-iteration-count:infinite;
 	-webkit-animation-direction:alternate;
-	-webkit-animation-play-state:running;
+	-webkit-animation-play-state:running;  
+	position:absolute;
 }
 
 @keyframes myfirst
