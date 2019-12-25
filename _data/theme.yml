@@ -23,9 +23,7 @@ t:
   of: "of"
   min_read: "1min read"
   present: "当下 Present"  
-  breadcrumb_home_label: "Home"  
-  breadcrumb_separator: "/"
-
+  
 # Google Fonts
 google_fonts:
   - name: "Fira Sans"
@@ -43,10 +41,4 @@ navigation_pages:
   - 学习笔记.md  
   - SVG笔记.md  
     
-  design_archive:
-    type: liquid
-    path: /design/
- tag_archive:
-    type: liquid
-    path: /tags/
- permalink: /design/:title/ 
+
