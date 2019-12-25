@@ -60,14 +60,28 @@ animation:kry 5s linear 2s infinite alternate;
 @keyframes kry
 {
 0%   {background:red; left:0px; top:0px;}
-25%  {background:green; left:200px; top:0px;}
-50%  {background:yellow; left:200px; top:200px;}
-75%  {background:black; left:0px; top:200px;}
-100% {background:red; left:0px; top:0px;}
+100%  {background:green; left:200px; top:0px;}
 }
 </style>
 </head>
 <body>
 <div class="kry">我是个方块</div>
 
-</body>
+</body>  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+---  
+在 CSS 中，background-position 属性是 可动画化（animatable） 的。
+Internet Explorer 10、Firefox 和 Opera 支持 CSS 动画。
+Safari 和 Chrome 通过带有前缀 -webkit-，支持 CSS 动画  
+  
+  增加animation动画效果并设置好position即可实现移动
