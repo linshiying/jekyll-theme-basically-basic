@@ -7,7 +7,7 @@ categories:
 tags:
   - svg
 ---  
- leywords:渐变，移动
+ keywords:渐变，移动
 <!--more-->  
   
 ##### 颜色渐变的方块  
