@@ -10,8 +10,40 @@ tags:
  leywords:渐变，移动
 <!--more-->  
   
-    
 ##### 颜色渐变的方块  
+<head>
+  <meta charset="UTF-8">
+<style> 
+.stal
+{
+width:100px;
+height:100px;
+background:white;
+animation:stal 5s;
+animation-iteration-count: infinite;
+}
+
+@keyframes stal
+{
+from {background:white;}
+to {background:yellow;}
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="stal"></div>
+</body>  
+  
+  
+    
+	  
+  
+  
+##### 颜色渐变且移动的方块  
 <head>
   <meta charset="UTF-8">
 <style> 
@@ -36,6 +68,6 @@ animation:kry 5s linear 2s infinite alternate;
 </style>
 </head>
 <body>
-<div class="kry">动起来</div>
+<div class="kry">我是个方块</div>
 
 </body>
