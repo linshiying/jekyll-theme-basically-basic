@@ -12,10 +12,30 @@ tags:
   
     
 ##### 颜色渐变的方块  
-<style>
- .QXF { width:100px; height:100px; background:red; animation:QXF 5s; animation-iteration-count: infinite; }
-@keyframes QXF { 
-from {background:red;} to {background:blue;} 
+<head>
+  <meta charset="UTF-8">
+<style> 
+div
+.kry
+{
+width:100px;
+height:100px;
+background:red;
+position:relative;
+animation:kry 5s linear 2s infinite alternate;
 }
 
+@keyframes kry
+{
+0%   {background:red; left:0px; top:0px;}
+25%  {background:green; left:200px; top:0px;}
+50%  {background:yellow; left:200px; top:200px;}
+75%  {background:black; left:0px; top:200px;}
+100% {background:red; left:0px; top:0px;}
+}
 </style>
+</head>
+<body>
+<div class="kry">动起来</div>
+
+</body>
